@@ -13,7 +13,7 @@ if lim_par_1 // 2 != 0 and lim_par_1 != 2:
 if lim_par_2 < lim_par_1:
     aux = lim_par_1
     lim_par_1 = lim_par_2
-    lim_par_2 = aux
+    lim_par_2 = limpar
 
 for n in range(lim_par_1, lim_par_2 + 1, 2):
     print(n)
